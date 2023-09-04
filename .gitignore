@@ -1,0 +1,104 @@
+# Archivos y carpetas generados por Visual Studio
+.vscode/
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.sdf
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.dll
+*.exe
+*.pdb
+*.ipch/
+*.lib
+*.zip
+*.rar
+*.7z
+*.dat
+*.dll.config
+[Tt]humbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.dbmdl
+*.dbproj.schemaview
+Generated_Code/
+[Tt]est[Rr]esult*/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Ll]ogFiles/
+_UpgradeReport_Files/
+TestResults/
+[Tt]est[Ss]tudio/
+
+# Carpeta de paquetes NuGet
+packages/
+
+# Carpeta de herramientas
+_tools/
+
+# Carpeta de análisis de código
+AnalyzeResults/
+
+# Carpeta de código generado por Windows Forms Designer
+WindowsFormsApp/obj/Debug/
+WindowsFormsApp/obj/Release/
+WindowsFormsApp/Properties/Settings.Designer.cs
+WindowsFormsApp/Properties/Resources.Designer.cs
+
+# Archivos de respaldo y temporales
+*~
+*.swp
+*.swn
+*.bak
+*.tmp
+*.pid
+*.log
+
+# Carpeta de publicación (puede variar según la configuración)
+publish/
+
+# Archivo de configuración de usuario de Visual Studio
+.vscode/settings.json
+
+# Archivo de configuración de NuGet
+NuGet.Config
+
+# Carpeta de respaldo de Visual Studio
+Backup*/
+
+# Archivos de configuración de usuario (puede variar según la configuración)
+*.suo
+*.user
+*.suo
+*.user
+
+# Carpetas de usuario y configuración
+AppData/
+Desktop/
+Documents/
+Downloads/
+Local Settings/
+My Documents/
+Saved Games/
+Videos/
+.vscode/
+.vscodeignore
+
+# Archivos de proyecto específicos
+MyProjectName.csproj.user
