@@ -391,45 +391,9 @@ namespace Es_Arboles
                 }
                 ObtenerBusqueda(inicio.Izquierdo, Buscando, delegado, Lista);
                 ObtenerBusqueda(inicio.Derecho, Buscando, delegado, Lista);
-                /*else if (Buscando.CompareTo)
-                {
-                    return ObtenerBusqueda(inicio.Izquierdo, Buscando, delegado, Lista);
-                }
-                else if (Buscando.CompareTo(inicio.Valor) == 1)
-                {
-                    return ObtenerBusqueda(inicio.Derecho, Buscando, delegado, Lista);
-                }*/
             }
             return Lista;
         }
-        /*public List<T> busqueda(Nodo23<T> buscado, Delegate delegado1)
-        {
-
-            Busquedas.Clear();
-            busqueda2(raiz, delegado1, buscado);
-            return Busquedas;
-        }
-
-        public void busqueda2(Nodo23<T> aux, Delegate delegado1, Nodo23<T> buscado)
-        {
-            if (aux != null)
-            {
-                busqueda2(aux.NodoIzq, delegado1, buscado);
-                if (Convert.ToInt32(delegado1.DynamicInvoke(buscado.Valor1, aux.Valor2)) == 0)
-                {
-                    Busquedas.Add(aux.Valor2);
-                }
-                if (aux.ocupado)
-                {
-                    if (Convert.ToInt32(delegado1.DynamicInvoke(buscado.Valor1, aux.Valor1)) == 0)
-                    {
-                        Busquedas.Add(aux.Valor1);
-                    }
-                }
-                busqueda2(aux.NodoCen, delegado1, buscado);
-                busqueda2(aux.NodoDer, delegado1, buscado);
-            }
-        }*/
     }
 
 }
